@@ -49,7 +49,7 @@ app.get("*", function(req, res) {
   });
 
 // post api/tables
-app.post("/api/notes/", function(req, res) {
+app.post("/api/notes", function(req, res) {
     noteTitles = fs.readFileSync("db/db.json", "utf8");
     noteTitles= JSON.parse(noteTitles);
     req.body.id = noteTitles.length;
