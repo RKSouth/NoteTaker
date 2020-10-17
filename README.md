@@ -3,7 +3,7 @@
 
 ### A simple app that allows a user to take notes, save them and access them later.
 
-![Note-taker](assets/finishedproduct.png)
+![Note-taker](public/assets/finishedproduct.png)
 
 ## Table of Contents
 * [Technologies Used](#Technologies_Used)
@@ -40,14 +40,14 @@ In order to have a wesbite that shows server side api, I had to turn to herku do
 
 What is the point of making a note if you can't save it? First, we use the app.get function to pull the data and then we use app.post to put into both the db.json and the container to the right
 
-![Saving Notes](assets/codesnippet01.png)
+![Saving Notes](public/assets/codesnippet01.png)
  
 ### __3. The ability to delete notes__
 
 Notes are meant to be temporary, although we do want to save them for a short time, we don't keep them forever thus the app.delete.
 
 
-![Deleting Notes](assets/codesnippet02.png)
+![Deleting Notes](public/assets/codesnippet02.png)
 
 My app.delete starts about setting and parson the db.json( our notes databas) to a variable named noteTitles. I then set a second variable named noteID that requests the parameter id-this plucks the id of the note that was selected for the trash can. I also set an index equal to zero-the index will be used later in the for loop that sets all of the note id's to strings.  On linr 76 I yet again set noteTitles( my parsed db.json file) to filter out all notes that weren't selected for deletion. 
 
