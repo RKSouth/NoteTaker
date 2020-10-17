@@ -19,7 +19,6 @@
 * CSS (11.2%)
 * Javascript (63.4%) 
 * [Bootstrap](https://getbootstrap.com/)
-* [Moment.js](https://momentjs.com/)
 * [jQuery](https://api.jquery.com/)
 * [heroku](https://signup.heroku.com/t/platform?c=70130000001xDpdAAE&gclid=CjwKCAjwiaX8BRBZEiwAQQxGx43Sk7_WDBlD1FE8hcLW9IYhNyk33BaDmv4eMRzr_7uxK5IpQvnONxoC5vAQAvD_BwE)
 * [node.js](https://www.npmjs.com/)
